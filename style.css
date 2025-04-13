@@ -347,7 +347,7 @@ body {
     background-color: var(--color-primario);
 }
 
-boton_oscuro:hover {
+.boton_oscuro:hover {
     color: var(--texto-primario);
     background-color: var(--color-primario-apagado);
 }
@@ -412,7 +412,6 @@ boton_oscuro:hover {
 
 .tarjeta__imagen {
     height: 100%;
-    width: 50%;
     width: 100%;
     object-fit: cover;
     transition: transform 0.3s ease-in;
