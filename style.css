@@ -323,7 +323,7 @@ body {
     color: var(--color-primario);
 }
 
-* .boton {
+.boton {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -342,7 +342,7 @@ body {
     background-color: var(--color-primario-apagado);
 }
 
-* .boton_oscuro {
+.boton_oscuro {
     color: var(--texto-primario);
     background-color: var(--color-primario);
 }
@@ -352,9 +352,8 @@ boton_oscuro:hover {
     background-color: var(--color-primario-apagado);
 }
 
-* .contenedor_tarjetas_grid {
+.contenedor_tarjetas_grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr auto;
     gap: 2rem;
